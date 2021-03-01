@@ -6,6 +6,8 @@ namespace csv2prj
     {
         static void Main(string[] args)
         {
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+
             if (args.Length > 0)
             {
                 System.IO.FileInfo fi = new System.IO.FileInfo(args[0]);
