@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Проектище</Name>
+  <Author>Дядя Вася</Author>
+  <SaveVersion>11</SaveVersion>
+  <ProjectExternallyEdited>0</ProjectExternallyEdited>
+  <CreationDate>2021-03-03T12:04:43.6688723+03:00</CreationDate>
+  <LastSaved>2021-03-03T12:04:43.6745572+03:00</LastSaved>
+  <StartDate>2020-01-01T08:00:00</StartDate>
+  <FinishDate>2020-01-03T08:00:00</FinishDate>
+  <CurrentDate>2019-12-31T08:00:00</CurrentDate>
+  <CalendarUID>1</CalendarUID>
+  <ScheduleFromStart>0</ScheduleFromStart>
+  <HonorConstraints>0</HonorConstraints>
+  <WorkFormat>5</WorkFormat>
+  <DurationFormat>5</DurationFormat>
+  <Calendars />
+  <Tasks />
+  <Resources />
+  <Assignments />
+</Project>

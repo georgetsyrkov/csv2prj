@@ -4,6 +4,7 @@ using System.Linq;
 using System.IO;
 using System.Globalization;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace csv2prj
 {
@@ -36,16 +37,14 @@ namespace csv2prj
                 Console.WriteLine($"[{i}]: Name={readData[i].Name}; Code={readData[i].Code}; Quantity={readData[i].Quantity};");
             }
         }
-    }
 
-    //public class CsvMap : CsvHelper.Configuration.ClassMap<DataObject>
-    //{
-    //    public CsvMap()
-    //    {
-    //        Map(m => m.Name).Name("Наименование");
-    //        Map(m => m.Code).Name("Обозначение");
-    //        Map(m => m.Quantity).Name("Количество");
-    //        Map(m => m.Duration).Name("Длительность");
-    //    }
-    //}
+        public static void SaveToXML()
+        {
+            Project prj = new Project();
+
+            XmlSerializer x = new XmlSerializer(typeof(Project));
+            TextWriter writer = new StreamWriter("output-example.xml");
+            x.Serialize(writer, prj);
+        }
+    }
 }

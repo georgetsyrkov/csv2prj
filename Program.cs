@@ -14,6 +14,7 @@ namespace csv2prj
                 if (fi.Exists)
                 {
                     MainParser.ParseCSV(fi.FullName);
+                    MainParser.SaveToXML();
                 }
                 else
                 {
