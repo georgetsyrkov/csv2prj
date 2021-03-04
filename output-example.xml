@@ -4,8 +4,8 @@
   <Author>Дядя Вася</Author>
   <SaveVersion>11</SaveVersion>
   <ProjectExternallyEdited>0</ProjectExternallyEdited>
-  <CreationDate>2021-03-03T12:04:43.6688723+03:00</CreationDate>
-  <LastSaved>2021-03-03T12:04:43.6745572+03:00</LastSaved>
+  <CreationDate>2021-03-04T11:25:21.0339016+03:00</CreationDate>
+  <LastSaved>2021-03-04T11:25:21.041039+03:00</LastSaved>
   <StartDate>2020-01-01T08:00:00</StartDate>
   <FinishDate>2020-01-03T08:00:00</FinishDate>
   <CurrentDate>2019-12-31T08:00:00</CurrentDate>
@@ -15,7 +15,134 @@
   <WorkFormat>5</WorkFormat>
   <DurationFormat>5</DurationFormat>
   <Calendars />
-  <Tasks />
+  <Tasks>
+    <Task>
+      <UID>1</UID>
+      <ID>1</ID>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <HideBar>0</HideBar>
+      <Summary>0</Summary>
+      <IsSubproject>0</IsSubproject>
+      <WBS>1</WBS>
+      <OutlineLevel>1</OutlineLevel>
+      <ConstraintType>1</ConstraintType>
+      <EffortDriven>0</EffortDriven>
+      <Milestone>0</Milestone>
+      <Name>Сборка 1 (СТУД.000001.001)</Name>
+      <FixedCostAccrual>3</FixedCostAccrual>
+      <Work />
+      <Duration>PT8H00M00S</Duration>
+      <DurationFormat>21</DurationFormat>
+      <Start />
+      <Finish />
+    </Task>
+    <Task>
+      <UID>2</UID>
+      <ID>2</ID>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <HideBar>0</HideBar>
+      <Summary>0</Summary>
+      <IsSubproject>0</IsSubproject>
+      <WBS>1</WBS>
+      <OutlineLevel>1</OutlineLevel>
+      <ConstraintType>1</ConstraintType>
+      <EffortDriven>0</EffortDriven>
+      <Milestone>0</Milestone>
+      <Name>Сборка 2 (СТУД.000001.002)</Name>
+      <FixedCostAccrual>3</FixedCostAccrual>
+      <Work />
+      <Duration>PT12H00M00S</Duration>
+      <DurationFormat>21</DurationFormat>
+      <Start />
+      <Finish />
+    </Task>
+    <Task>
+      <UID>3</UID>
+      <ID>3</ID>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <HideBar>0</HideBar>
+      <Summary>0</Summary>
+      <IsSubproject>0</IsSubproject>
+      <WBS>1</WBS>
+      <OutlineLevel>1</OutlineLevel>
+      <ConstraintType>1</ConstraintType>
+      <EffortDriven>0</EffortDriven>
+      <Milestone>0</Milestone>
+      <Name>Сборка 3 (СТУД.000001.003)</Name>
+      <FixedCostAccrual>3</FixedCostAccrual>
+      <Work />
+      <Duration>PT8H00M00S</Duration>
+      <DurationFormat>21</DurationFormat>
+      <Start />
+      <Finish />
+    </Task>
+    <Task>
+      <UID>4</UID>
+      <ID>4</ID>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <HideBar>0</HideBar>
+      <Summary>0</Summary>
+      <IsSubproject>0</IsSubproject>
+      <WBS>1</WBS>
+      <OutlineLevel>1</OutlineLevel>
+      <ConstraintType>1</ConstraintType>
+      <EffortDriven>0</EffortDriven>
+      <Milestone>0</Milestone>
+      <Name>Деталь 1 (СТУД.000101.001)</Name>
+      <FixedCostAccrual>3</FixedCostAccrual>
+      <Work />
+      <Duration>PT2H00M00S</Duration>
+      <DurationFormat>21</DurationFormat>
+      <Start />
+      <Finish />
+    </Task>
+    <Task>
+      <UID>5</UID>
+      <ID>5</ID>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <HideBar>0</HideBar>
+      <Summary>0</Summary>
+      <IsSubproject>0</IsSubproject>
+      <WBS>1</WBS>
+      <OutlineLevel>1</OutlineLevel>
+      <ConstraintType>1</ConstraintType>
+      <EffortDriven>0</EffortDriven>
+      <Milestone>0</Milestone>
+      <Name>Сборка 2 (СТУД.000102.001)</Name>
+      <FixedCostAccrual>3</FixedCostAccrual>
+      <Work />
+      <Duration>PT16H00M00S</Duration>
+      <DurationFormat>21</DurationFormat>
+      <Start />
+      <Finish />
+    </Task>
+    <Task>
+      <UID>6</UID>
+      <ID>6</ID>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <HideBar>0</HideBar>
+      <Summary>0</Summary>
+      <IsSubproject>0</IsSubproject>
+      <WBS>1</WBS>
+      <OutlineLevel>1</OutlineLevel>
+      <ConstraintType>1</ConstraintType>
+      <EffortDriven>0</EffortDriven>
+      <Milestone>0</Milestone>
+      <Name>Сборка 3 (СТУД.000103.001)</Name>
+      <FixedCostAccrual>3</FixedCostAccrual>
+      <Work />
+      <Duration>PT8H00M00S</Duration>
+      <DurationFormat>21</DurationFormat>
+      <Start />
+      <Finish />
+    </Task>
+  </Tasks>
   <Resources />
   <Assignments />
 </Project>
