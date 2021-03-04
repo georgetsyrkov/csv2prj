@@ -4,6 +4,9 @@ namespace csv2prj
 {
     public class DataObject
     {
+        [CsvHelper.Configuration.Attributes.Name("Тип")]
+        public string Type {get;set;} = string.Empty;
+
         [CsvHelper.Configuration.Attributes.Name("Наименование")]
         public string Name {get;set;} = string.Empty;
 
